@@ -16,4 +16,5 @@ lon3_paris = 45
 
 lon_paris, lat_paris = dms_to_dd(lon1_paris, lon2_paris, lon3_paris), dms_to_dd(lat1_paris, lat2_paris, lat3_paris)
 
-
+def distance_km(COOR_PN_X,COOR_PN_Y,lon_paris,lat_paris):
+    distance = ( x 2 − x 1 ) 2 + ( y 2 − y 1 ) 2
