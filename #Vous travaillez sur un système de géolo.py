@@ -9,13 +9,13 @@ from math import sqrt
 def dms_to_dd(villedms1,villedms2,villedms3):
     return villedms1 +(villedms2 / 60) + (villedms3 / 3600)
 
-lat1_paris = 80
-lat2_paris = 50
-lat3_paris = 20
+lat1_paris = 48
+lat2_paris = 51
+lat3_paris = 23.81
 
-lon1_paris = 75
-lon2_paris = 35
-lon3_paris = 25
+lon1_paris = 2
+lon2_paris = 21
+lon3_paris = 7.999
 
 #appelle de la fonction DMS À DD
 
@@ -29,7 +29,7 @@ def distance_km(LONG_1, LONG_2 , LAT_2, LAT_1):
 
 # testing
 
-distance_entre_2 = distance_km(120,90,150,20)
+distance_entre_2 = distance_km(86,48.85,172,2.35)
 distance_entre_8 = distance_km(150,80,120,70)
 
 print(distance_entre_2)
